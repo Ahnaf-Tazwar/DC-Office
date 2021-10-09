@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="588.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="badc.Admin.UpdateNoticeController">
+   <children>
+      <Label layoutX="304.0" layoutY="14.0" prefHeight="45.0" prefWidth="66.0" text="Notice" textFill="#ae0404">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="94.0" prefHeight="25.0" prefWidth="110.0" text="Date  :" textFill="#00864e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="date" layoutX="245.0" layoutY="94.0" prefHeight="25.0" prefWidth="251.0" />
+      <Label layoutX="57.0" layoutY="148.0" prefHeight="25.0" prefWidth="168.0" text="Update Notice :" textFill="#00864e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="noticetxt" layoutX="245.0" layoutY="148.0" prefHeight="154.0" prefWidth="368.0" />
+      <Button layoutX="597.0" layoutY="549.0" mnemonicParsing="false" onAction="#saveButtonOnAction" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #008919;" text="Save" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="57.0" layoutY="549.0" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1599ff;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="57.0" layoutY="332.0" mnemonicParsing="false" onAction="#viewButtonOnAction" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1599ff;" text="View" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="show" layoutX="245.0" layoutY="325.0" prefHeight="200.0" prefWidth="368.0" />
+   </children>
+</AnchorPane>

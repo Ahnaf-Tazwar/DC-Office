@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="648.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="badc.Admin.UpcomingProgrameeDEntryController">
+   <children>
+      <Label layoutX="135.0" layoutY="24.0" prefHeight="45.0" prefWidth="271.0" text="Upcoming Programee Details" textFill="#ae0404">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="86.0" prefHeight="25.0" prefWidth="110.0" text="Date  :" textFill="#00864e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="date" layoutX="169.0" layoutY="86.0" prefHeight="25.0" prefWidth="251.0" />
+      <Label layoutX="40.0" layoutY="129.0" prefHeight="25.0" prefWidth="110.0" text="Programme Moto :" textFill="#00864e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pmoto" layoutX="166.0" layoutY="142.0" prefHeight="76.0" prefWidth="354.0" />
+      <Label layoutX="36.0" layoutY="223.0" prefHeight="25.0" prefWidth="119.0" text="Programme Details :" textFill="#00864e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="pdetails" layoutX="167.0" layoutY="235.0" prefHeight="132.0" prefWidth="354.0" />
+      <Button layoutX="495.0" layoutY="601.0" mnemonicParsing="false" onAction="#saveButtonOnAction" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #008919;" text="Save" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="28.0" layoutY="601.0" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1599ff;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="40.0" layoutY="390.0" mnemonicParsing="false" onAction="#viewButtonOnAction" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1599ff;" text="View" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="show" layoutX="165.0" layoutY="390.0" prefHeight="200.0" prefWidth="368.0" />
+   </children>
+</AnchorPane>

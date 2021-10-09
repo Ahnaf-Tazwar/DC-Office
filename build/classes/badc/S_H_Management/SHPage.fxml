@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="506.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="badc.S_H_Management.SHPageController">
+   <children>
+      <Label layoutX="113.0" layoutY="34.0" prefHeight="42.0" prefWidth="392.0" text="Seed &amp; Horticulter Management " textFill="#c31515">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="49.0" layoutY="148.0" mnemonicParsing="false" onAction="#pricelistButtonOnAction" prefHeight="42.0" prefWidth="238.0" text="Price List" textFill="#13a809">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="331.0" layoutY="148.0" mnemonicParsing="false" onAction="#productionButtonOnAction" prefHeight="42.0" prefWidth="238.0" text="Production Details" textFill="#13a809">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="49.0" layoutY="253.0" mnemonicParsing="false" onAction="#seedGButtonOnAction" prefHeight="42.0" prefWidth="238.0" text="Seed Godwon Information" textFill="#13a809">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="331.0" layoutY="253.0" mnemonicParsing="false" onAction="#seedSalesButtonOnAction" prefHeight="42.0" prefWidth="238.0" text="Seed Sales Information" textFill="#13a809">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="190.0" layoutY="353.0" mnemonicParsing="false" onAction="#productionReportButtonOnAction" prefHeight="42.0" prefWidth="238.0" text="Production Report" textFill="#13a809">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="493.0" layoutY="436.0" mnemonicParsing="false" onAction="#signOutButtonOnAction" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: #0599ff;" text="Sign Out" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
